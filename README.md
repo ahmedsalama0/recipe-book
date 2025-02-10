@@ -1,39 +1,31 @@
-# recipe-book
+# **Recipe Book (Vue 3 + TypeScript, SPA, Pinia)**
 
-This template should help get you started developing with Vue 3 in Vite.
+## **Overview**
+This is a simple Recipe Book application built with Vue 3 and TypeScript. It demonstrates Vue Router features and Pinia for state management in a Single Page Application (SPA).
 
-## Recommended IDE Setup
+## **Features**
+- ✅ **Add Recipes**: Users can add new recipes.
+- ✅ **Favorites Management**: Users can add recipes to their favorites.
+- ✅ **Local Storage Syncing**: Recipe data persists between sessions.
+- ✅ **Vue Router Features**:
+  - Dynamic and nested routes.
+  - Programmatic navigation.
+  - Fall-back routes (404 pages).
+- ✅ **State Management**:
+  - Pinia stores for centralized state handling.
+  - Pinia plugins for extended functionality.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## **Tech Stack**
+- **Frontend:** Vue 3, TypeScript
+- **Styling:** Tailwind CSS
+- **State Management:** Pinia
+- **Routing:** Vue Router
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## **Usage**
+- **Add Recipes**: Enter recipe details and save them.
+- **Manage Favorites**: Mark recipes as favorites for quick access.
+- **Navigation**: Use the Vue Router features for seamless navigation.
+- **Error Handling**: Custom 404 fall-back route for undefined pages.
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
